@@ -6,47 +6,148 @@
     <title>Выиграй полное преображение со стилистом</title>
 </head>
 <body>
-    <div>
-        <div class="page">
-            <header class="header">
+    <section class="page" id="headerSection">
+        <section class="header">
+            <header class="container-small">
                 <div class="logos">
                     <a class="logo" href="https://www.henkel.ru/"></a>
                     <div class="divider"></div>
-                    <a class="logo-lent" href="https://www.okmarket.ru/"></a>
+                    <a class="logo-lenta" href="https://www.okmarket.ru/"></a>
                 </div>
-                <div class="menu">
-                    <a href="">Об акции</a>
-                    <a href="/pdf/Правила_акции_Преобразись_с_Henkel.pdf">Правила</a>
-                    <a href="">Победители</a>
-                    <a href="">Помощь</a>
-                </div>
-            </header>
-            <section class="content">
-                <div class="content-container">
-                    <h1>выиграй полное<br>преображение со стилистом</h1>
-                </div>
-                <div class="girl"></div>
-                <div class="product">
-                    <div class="logo">
-                        <div class="spacer"></div>
-                    </div>
-                    <div class="logo">
-                        <div class="spacer"></div>
-                    </div>
-                    <div class="logo">
-                        <div class="spacer"></div>
-                    </div>
-                    <picture class="product-sku" >
-                        <img src="./imgs/sku.svg">
-                    </picture>
-                    <a href="" class="more-button">Подробнее</a>
+                <div class="links">
+                    <section class="header-links">
+                        <a href="">Об акции</a>
+                        <a href="./pdf/Правила_акции_Преобразись_с_Henkel.pdf">Правила</a> 
+                        <a href="">Победители</a> 
+                        <a href="">Помощь</a>
                     </section>
                 </div>
-                <div class="arrow-down-wrapper">
-                    <img class="arrow-down" src="./imgs/arrow-down.svg" alt="">
+            </header>
+        </section>
+        <section class="content">
+            <section class="full-width page">
+                <section class="full-width kv-wrap overflow-hidden">
+                    <div class="backtop-handler"></div>
+                    <div class="content container-small">
+                        <h1>выиграй полное<br>
+                        преображение со стилистом</h1><a class="red-button more-button-content">подробнее</a>
+                    </div>
+                    <div class="girl"></div>
+                    <div class="kv-product">
+                        <section class="logos">
+                            <div class="logo">
+                                <div class="spacer"></div>
+                            </div>
+                            <div class="logo">
+                                <div class="spacer"></div>
+                            </div>
+                            <div class="logo">
+                                <div class="spacer"></div>
+                            </div>
+                        </section>
+                        <picture class="kv-product-sku">
+                            <img src="./imgs/sku.svg">
+                        </picture>
+                            <a class="red-button more-button">подробнее</a>
+                    </div>
+                    <div class="arrow-down_wrapper">
+                        <img class="arrow-down" src="./imgs/arrow-down.svg">
+                    </div>
+                </section>
+                <section class="action-description container-small" id="actionDescription">
+                    <h2></h2>
+                    <p>Механика акции</p><span>с 13 февраля по 11 марта 2020 года</span>
+                    <section class="steps full-width">
+                        <div class="step">
+                            <h3>Купи</h3>
+                            <p>любой продукт Henkel<br>
+                            из женского ассортимента<br>
+                            на сумму от 249 рублей</p>
+                        </div>
+                        <div class="step">
+                            <h3>ОТПРАВЬ</h3>
+                            <p>чек по номеру 8 (906) 052-11-11<br>
+                            в WhatsApp</p>
+                        </div>
+                        <div class="step">
+                            <h3>УЧАСТВУЙ</h3>
+                            <p>в розыгрыше призов</p>
+                        </div>
+                    </section>
+                    <div class="full-rules-link">
+                        <a class="red-button" href="./pdf/Правила_акции_Преобразись_с_Henkel.pdf">полные правила акции</a>
+                    </div>
+                </section>
+                <section class="action-description container-small" id="actionDescription">
+                    <h2>
+                    <p>Выиграй главный приз</p><span>ПОЛНОЕ ПРЕОБРАЖЕНИЕ СО СТИЛИСТОМ</span>
+                    </h2>
+                    <picture class="pack">
+                        <img src="./imgs/packages.png">
+                    </picture>
+                    <h2><span>А также</span></h2>
+                    <section class="steps full-width">
+                        <div class="step">
+                            <picture class="card">
+                                <img src="./imgs/okko-card.png"></picture>
+                            <p><span>гарантированно</span> подписку на онлайн-<br>
+                            кинотеатр Okko*</p>
+                        </div>
+                        <div class="step">
+                            <picture class="card">
+                                <img src="./imgs/ok-card.png"></picture>
+                            <p><span>ЕЖЕНЕДЕЛЬНО</span>сертификаты в Окей</p>
+                        </div>
+                    </section>
+                    <div class="note">
+                        *Сервис Okko 18+; 12 дней доступа к Okko
+                    </div>
+                </section>
+                <section class="full-width winners-list" id="winners">
+                    <section class="winners-header container-small">
+                        <h2>Победители</h2>
+                        <div class="winners-phone-input">
+                            <label>Проверить статус по номеру телефона</label>
+                            <div class="form">
+                                <div class="form-left">
+                                    <div class="text-field-label">
+                                        <input class="input" data-vv-as="Телефон" name="phone" placeholder="+7 *** ***-**-**" type="text" value="">
+                                        <div class="field-error">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-rgh">
+                                    <a class="black-button">Найти</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="winners-table-section container-small">
+                        <section class="winners-type-select">
+                            <a class="active">Все призы</a><a>Главный приз</a><a>Гарантированные призы</a><a>Еженедельные призы</a>
+                        </section>
+                        <div class="full-width empty">
+                            <h2>Победители не найдены</h2>
+                        </div>
+                    </section>
+                </section>
+            </section>
+        </section>
+        <section class="footer">
+            <footer class="full-width container-small">
+                <div class="logos footer">
+                    <a class="logo" href="https://www.henkel.ru/"></a>
+                    <div class="divider"></div>
+                    <a class="logo-lenta" href="https://www.okmarket.ru/"></a>
                 </div>
-            </div>
-        </div>
-    </div>
+                <section class="header-links footer">
+                    <a>Об акции</a>
+                    <a href="./pdf/Правила_акции_Преобразись_с_Henkel.pdf">Правила</a>
+                    <a>Победители</a>
+                    <a>Помощь</a>
+                </section>
+            </footer>
+        </section>
+    </section>
 </body>
 </html>
